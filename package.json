@@ -1,0 +1,23 @@
+{
+  "name": "nr-encryption",
+  "version": "1.0.0",
+  "description": "Natural Rights Encryption Server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/cgdusek/nr-encryption-server.git"
+  },
+  "author": "Charles Dusek",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://gitlab.com/cgdusek/nr-encryption-server/issues"
+  },
+  "homepage": "https://gitlab.com/cgdusek/nr-encryption-server#readme",
+  "dependencies": {
+    "text-encoding-shim": "^1.0.4",
+    "ws": "^7.1.2"
+  }
+}
